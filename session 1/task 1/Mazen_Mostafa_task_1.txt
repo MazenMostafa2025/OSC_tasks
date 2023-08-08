@@ -1,0 +1,38 @@
+1-mkdir 'Mazen Mostafa'
+2-cd 'Mazen Mostafa'
+3-mkdir Documents
+4-cd Documents
+5-touch file1.txt file2.txt file3.txt
+6-ls
+7-cd ..
+8-touch .hidden_file
+9-ls -a
+10-nano file1.txt
+11-cat file1.txt
+12-cd Documents
+13-mkdir '-'
+14-cd -/
+15-cd ../..
+16-cp -r Documents ./My\ Documents
+17-ls
+18-cd ~/Mazen\ Mostafa
+19-cat .hidden_file
+20-cd Documents
+21-mv file1.txt file2.txt ..
+22-ls
+23-cd ~
+24-rm -r 'Mazen Mostafa'
+25-ls
+
+
+
+
+
+
+
+
+
+
+
+
+
