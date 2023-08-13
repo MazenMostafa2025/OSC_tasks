@@ -1,0 +1,20 @@
+1- I opened a web browser and wrote the link to download the zipfile
+2- unzip Updated-Task-02.zip => unzip the zipfile
+3- ls => display the content of the extracted zipfile
+4- cd Updated-Task-02 => to go to the directory created through the extraction
+5- cat README.txt
+6- ls -a => display all files in the directory including hidden ones 
+7- tar -xf .level-1.tar => to extract files of the tar
+8- ls -a => to view items including hidden ones
+9- cd level-1
+10- file level-2
+11- tar -xf level-2 => compress file through gunzip
+12- ls -a 
+13- cd level-2
+14- cat README.txt
+15- find . -name level-3
+16- cd gBT5u0vLT5
+17- file level-3
+18- tar -xf level-3.out
+19- cd level-3
+20- ls -a
