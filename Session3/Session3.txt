@@ -1,0 +1,23 @@
+useradd osc
+sudo useradd osc
+sudo groupadd oscgroup
+sudo passwd osc
+sudo usermod -a -G oscgroup osc
+sudo usermod -aG sudo osc
+su - osc
+sudo touch public_file.txt private_file.txt executable_script.sh
+sudo chmod a=rw public_file.txt
+sudo chmod u=rw private_file.txt
+sudo chmod u=rwx executable_script.sh
+sudo chmod g=rx executable_script.sh
+sudo chown mazen private_file.txt
+sudo chgrp oscgroup private_file.txt
+sleep 1000 &
+ps
+kill -s KILL 1363 or kill 1363
+vim 
+CTRL+Z
+sudo apt-get update --allow-insecure-repositories
+sudo apt install neofetch
+sudo apt remove neofetch
+
