@@ -1,0 +1,17 @@
+sudo nano system_info.sh
+sudo chmod +x system_info.sh
+./system_info.sh
+
+sudo nano file_check.sh
+sudo chmod +x file_check.sh
+touch file1.txt
+./file_check.sh file1.txt /home/osc
+
+sudo nano rename_files.sh
+sudo chmod +x rename_files.sh
+touch lion.png tiger.png dog.png 
+./rename_files.sh png image
+
+sudo nano calculator.sh
+sudo chmod +x calculator.sh
+./calculator.sh
